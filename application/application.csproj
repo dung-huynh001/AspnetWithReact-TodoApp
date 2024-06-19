@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\AppUserDTO\" />
+    <Folder Include="DTOs\TaskTagDTO\" />
+    <Folder Include="DTOs\TagDTO\" />
+    <Folder Include="DTOs\TaskCommentDTO\" />
+    <Folder Include="DTOs\TaskDTO\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\domain\domain.csproj" />
+  </ItemGroup>
+
+</Project>

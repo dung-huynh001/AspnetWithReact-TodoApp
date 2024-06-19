@@ -1,0 +1,620 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\repositories\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\repositories\\taskcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\repositories\\tasktagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\entities\\taskcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\entities\\tasktag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11D8B38-B5A8-4DD1-884A-BF767941848F}|..\\domain\\domain.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\extensions\\iservicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\configurations\\taskcommentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\irepositories\\iappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\irepositories\\itaskcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\irepositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\irepositories\\itasktagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\interfaces\\irepositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\configurations\\tagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\configurations\\taskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\extensions\\iservicecollectionextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\extensions\\iservicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:extensions\\iservicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8117D5A3-41F4-49E8-83A4-0579E366C865}|..\\infrastructure\\infrastructure.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB3F1-19BC-461D-8000-16D9FFE1F509}|..\\application\\application.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|d:\\src\\asp.net_react\\20240618\\todoapp\\api\\middlewares\\globalhandleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2DE256-EBCF-484A-AAF7-A8D0D240D850}|api.csproj|solutionrelative:middlewares\\globalhandleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\domain\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:52:00.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:34:07.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:26:31.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskCommentConfiguration.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TaskCommentConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Configurations\\TaskCommentConfiguration.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TaskCommentConfiguration.cs",
+              "RelativeToolTip": "..\\infrastructure\\Configurations\\TaskCommentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:25:54.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskTag.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\TaskTag.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Entities\\TaskTag.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\TaskTag.cs",
+              "RelativeToolTip": "..\\domain\\Entities\\TaskTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:23:45.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskComment.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\TaskComment.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Entities\\TaskComment.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\TaskComment.cs",
+              "RelativeToolTip": "..\\domain\\Entities\\TaskComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:23:44.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Entities\\Task.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\Task.cs",
+              "RelativeToolTip": "..\\domain\\Entities\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:23:43.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:23:43.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TagConfiguration.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TagConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Configurations\\TagConfiguration.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TagConfiguration.cs",
+              "RelativeToolTip": "..\\infrastructure\\Configurations\\TagConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:22:31.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskTagRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskTagRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\Repositories\\TaskTagRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskTagRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\Repositories\\TaskTagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:21:16.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskConfiguration.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TaskConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Configurations\\TaskConfiguration.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Configurations\\TaskConfiguration.cs",
+              "RelativeToolTip": "..\\infrastructure\\Configurations\\TaskConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:19:52.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:19:00.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskCommentRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskCommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\Repositories\\TaskCommentRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TaskCommentRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\Repositories\\TaskCommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:18:32.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\Repositories\\TagRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\Repositories\\TagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:18:10.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\GenericRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\GenericRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:17:09.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Entities\\Tag.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\Tag.cs",
+              "RelativeToolTip": "..\\domain\\Entities\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:15:48.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITaskTagRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskTagRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IRepositories\\ITaskTagRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskTagRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IRepositories\\ITaskTagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:14:54.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:14:50.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ITaskCommentRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskCommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IRepositories\\ITaskCommentRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITaskCommentRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IRepositories\\ITaskCommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:14:45.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IRepositories\\ITagRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\ITagRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IRepositories\\ITagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:14:32.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAppUserRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\IAppUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IRepositories\\IAppUserRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IRepositories\\IAppUserRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IRepositories\\IAppUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:08:01.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:03:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:02:51.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUserRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\AppUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Implementations\\Repositories\\AppUserRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Implementations\\Repositories\\AppUserRepository.cs",
+              "RelativeToolTip": "..\\infrastructure\\Implementations\\Repositories\\AppUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:00:55.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IServiceCollectionExtention.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Extensions\\IServiceCollectionExtention.cs",
+              "RelativeDocumentMoniker": "..\\application\\Extensions\\IServiceCollectionExtention.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\Extensions\\IServiceCollectionExtention.cs",
+              "RelativeToolTip": "..\\application\\Extensions\\IServiceCollectionExtention.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:57:59.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IServiceCollectionExtension.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Extensions\\IServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "..\\infrastructure\\Extensions\\IServiceCollectionExtension.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\Extensions\\IServiceCollectionExtension.cs",
+              "RelativeToolTip": "..\\infrastructure\\Extensions\\IServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:54:01.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "infrastructure",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\infrastructure\\infrastructure.csproj",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\infrastructure\\infrastructure.csproj",
+              "RelativeToolTip": "..\\infrastructure\\infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-19T03:38:10.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "application",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\application.csproj",
+              "RelativeDocumentMoniker": "..\\application\\application.csproj",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\application\\application.csproj",
+              "RelativeToolTip": "..\\application\\application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-19T03:37:41.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "api",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\api.csproj",
+              "RelativeDocumentMoniker": "api.csproj",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\api.csproj",
+              "RelativeToolTip": "api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-19T03:36:35.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\domain\\Entities\\AppUser.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "..\\domain\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:33:37.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T08:55:27.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "api.http",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\api.http",
+              "RelativeDocumentMoniker": "api.http",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\api.http",
+              "RelativeToolTip": "api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-18T08:46:35.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IServiceCollectionExtension.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Extensions\\IServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\IServiceCollectionExtension.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Extensions\\IServiceCollectionExtension.cs",
+              "RelativeToolTip": "Extensions\\IServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T08:39:19.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T08:27:04.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T08:19:57.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAWwBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:06:37.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GlobalHandleException.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Middlewares\\GlobalHandleException.cs",
+              "RelativeDocumentMoniker": "Middlewares\\GlobalHandleException.cs",
+              "ToolTip": "D:\\src\\ASP.NET_React\\20240618\\TodoApp\\api\\Middlewares\\GlobalHandleException.cs",
+              "RelativeToolTip": "Middlewares\\GlobalHandleException.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAmwDoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:40:16.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
