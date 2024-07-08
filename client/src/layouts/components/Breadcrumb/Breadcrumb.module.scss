@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+.breadcrumb {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-blue);
+  }
+
+  .label {
+    color: var(--text-blue);
+    font-size: 1.5rem;
+    opacity: 1;
+
+    &:not(:first-child)::before {
+        content: "/";
+        margin: 0 0.5rem;
+    }
+
+    &.active {
+      opacity: 0.7;
+    }
+  }
+
+}

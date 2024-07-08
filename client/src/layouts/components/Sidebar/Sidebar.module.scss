@@ -1,0 +1,47 @@
+.wrapper {
+    width: 90px;
+    background-color: #ddd;
+    border-right: 1px solid #fff;
+    transition: 0.5s ease-in-out, transform 0.5s ease-in-out;
+    &.active {
+        width: 280px;
+    }
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.brand {
+    height: 48px;
+    padding: 16px;
+    color: var(--text-blue);
+    border-bottom: 1px solid #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    height: 48px;
+    padding: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #11387f;
+
+    &:hover {
+        background-color: #ccc;
+        color: #5b89df;
+    }
+
+    &.active {
+        background-color: #999;
+        color: #f2f2f2;
+    }
+}
+
+.btn-toggle {
+    position: fixed;
+    
+}

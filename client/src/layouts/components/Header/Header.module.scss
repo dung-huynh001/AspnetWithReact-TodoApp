@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  height: 100px;
+  background-color: #ddd;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.inner {
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo > img {
+    height: 60px;
+    object-fit: fill;
+  }
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  p {
+    color: var(--text-blue);
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .timer {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-blue);
+    float: right;
+  }
+}
