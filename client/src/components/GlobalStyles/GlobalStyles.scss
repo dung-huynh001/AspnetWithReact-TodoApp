@@ -1,0 +1,33 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --bg-color: #f2f2f2;
+    --content-width: 1120px;
+    --text-blue: #295097;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  text-rendering: optimizeSpeed;
+  background-color: var(--bg-color);
+}
+
+
+a[href] {
+  text-decoration: none;
+}
+

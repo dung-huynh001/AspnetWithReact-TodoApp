@@ -1,0 +1,26 @@
+import classNames from "classnames/bind";
+import styles from "./Home.module.scss";
+import Breadcrumb from "~/layouts/components/Breadcrumb";
+
+const cx = classNames.bind(styles);
+
+function Home() {
+  return (
+    <main className={cx("wrapper")}>
+      <Breadcrumb
+        title="Home"
+        path={[
+          {
+            label: "Home",
+            link: "/",
+          },
+          {
+            label: "Add",
+          },
+        ]}
+      />
+    </main>
+  );
+}
+
+export default Home;
