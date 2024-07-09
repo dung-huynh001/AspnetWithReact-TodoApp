@@ -1,6 +1,15 @@
+import classNames from "classnames/bind";
+import styles from "./AddTask.module.scss";
+import AddTaskForm from "~/components/AddTaskForm";
+
+const cx = classNames.bind(styles);
+
 function AddTask() {
-  console.log("AddTask running...");
-  return <div>AddTask</div>;
+  return (
+    <div className={cx("wrapper")}>
+      <AddTaskForm />
+    </div>
+  );
 }
 
 export default AddTask;

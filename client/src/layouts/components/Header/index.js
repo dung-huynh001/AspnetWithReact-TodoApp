@@ -8,7 +8,6 @@ const cx = classNames.bind(styles);
 function Header() {
     const [timer, setTimer] = useState(new Date().toLocaleTimeString('en-US'));
     const today = new Date().toDateString()
-    console.log('header running')
     useEffect(() => {
         const timerId = setInterval(() => {
             setTimer(new Date().toLocaleTimeString('en-US'));

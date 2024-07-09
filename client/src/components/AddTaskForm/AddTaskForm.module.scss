@@ -1,0 +1,42 @@
+.container {
+  padding: 16px;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 18px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  .input {
+    width: 400px;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+
+  .label {
+    color: var(--text-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex: 1;
+  }
+}
+
+.btn-submit {
+  align-self: end;
+  color: #fff;
+  background-color: rgb(26, 179, 26);
+  border-color: rgb(26, 179, 26);
+}

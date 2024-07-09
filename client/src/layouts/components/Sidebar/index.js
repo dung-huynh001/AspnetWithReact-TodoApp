@@ -21,7 +21,7 @@ function Sidebar() {
     },
     {
       id: 2,
-      title: "Today",
+      title: "All Task",
       icon: faCalendarWeek,
       link: "/",
     },

@@ -1,6 +1,6 @@
 .wrapper {
     width: 280px;
-    background-color: #ddd;
+    background-color: var(--bg-gray);
     border-right: 1px solid #fff;
     transition: 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
@@ -11,7 +11,7 @@
 }
 
 .wrapper.close {
-    width: 60px;
+    width: 62px;
 }
 
 .wrapper.close .text {
@@ -24,7 +24,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 }
 
 .brand {
@@ -33,6 +33,7 @@
     border-bottom: 1px solid #fff;
     font-weight: 900;
     text-transform: uppercase;
+    position: relative;
 }
 
 .menu-item {
@@ -58,7 +59,7 @@
 }
 
 .btn-toggle {
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     background-color: transparent;
     width: 48px;

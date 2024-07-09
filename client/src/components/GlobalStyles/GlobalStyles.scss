@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --bg-color: #f2f2f2;
-    --content-width: 1120px;
-    --text-blue: #295097;
+  --bg-light: #f2f2f2;
+  --bg-gray: #ddd;
+  --content-width: 1120px;
+  --text-blue: #295097;
+  --header-height: 100px;
+  --breadcrumb-height: 48px;
+  --primary: #295097;
+  --btn-radius: #295097;
 }
 
 * {
@@ -23,11 +28,21 @@ body {
   font-size: 1.6rem;
   line-height: 1.5rem;
   text-rendering: optimizeSpeed;
-  background-color: var(--bg-color);
+  background-color: var(--bg-light);
 }
-
 
 a[href] {
   text-decoration: none;
 }
 
+button {
+  padding: 6px 12px;
+  font-size: 1.5rem;
+  border: 1px solid var(--btn-radius);
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+    opacity: 0.8;
+  }
+}

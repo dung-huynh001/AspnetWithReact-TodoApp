@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #ddd;
+  background-color: var(--bg-gray);
   border-bottom: 1px solid #fff;
 }
 
@@ -13,7 +13,7 @@
   padding: 16px;
 
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: var(--text-blue);
   }
