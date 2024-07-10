@@ -15,7 +15,6 @@
 
 .input-box {
   display: flex;
-  align-items: center;
   gap: 5px;
 
   .input {
@@ -26,11 +25,16 @@
     border-radius: 5px;
   }
 
+  textarea.input {
+    min-height: 150px;
+  }
+
   .label {
     color: var(--text-blue);
     font-size: 1.5rem;
     font-weight: 700;
     flex: 1;
+    padding-top: 10px;
   }
 }
 

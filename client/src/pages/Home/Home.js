@@ -9,13 +9,8 @@ function Home() {
   return (
     <main className={cx("wrapper")}>
       <Breadcrumb
-        title="Home"
-        path={[
-          {
-            label: "Home",
-            link: "/",
-          }
-        ]}
+        title="Upcoming"
+        path={[]}
       />
       <TaskList />
     </main>

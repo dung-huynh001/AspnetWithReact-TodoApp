@@ -8,7 +8,7 @@ import EditTask from '~/pages/EditTask';
 const publicRoutes = [
     { path: "/", component: Home, layout: DefaultLayout },
     { path: "/add-task", component: AddTask, layout: HeaderOnly },
-    { path: "/edit-task", component: EditTask, layout: HeaderOnly },
+    { path: "/edit-task/:id", component: EditTask, layout: HeaderOnly },
 ];
 const privateRoutes = [];
 

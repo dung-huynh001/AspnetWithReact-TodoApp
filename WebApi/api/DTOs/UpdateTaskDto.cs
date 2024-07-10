@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using domain.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace api.DTOs
 {
@@ -10,6 +11,6 @@ namespace api.DTOs
         public string Description { get; set; }
         public DateTime DueTime { get; set; }
         [Required]
-        public string Status { get; set; }
+        public int Status { get; set; }
     }
 }

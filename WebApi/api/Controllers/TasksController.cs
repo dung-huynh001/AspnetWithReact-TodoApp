@@ -41,6 +41,13 @@ namespace api.Controllers
             return Ok(tasks);
         }
 
+        [HttpGet("GetTaskById")]
+        public async Task<IActionResult> GetTaskById(int id)
+        {
+            Task? task = await _context.Set<Task>().FindAsync(id);
+            return Ok(task);
+        }
+
         [HttpGet("GetTasks")]
         public async Task<IActionResult> GetTasks(TaskFilter filter)
         {
@@ -51,7 +58,7 @@ namespace api.Controllers
                && t.DueDate >= filter.StartTime
                && t.Title.Contains(filter.SearchValue))
                .ToListAsync();
-            return Ok();
+            return Ok(tasks);
         }
 
         [HttpPost("AddTask")]
@@ -91,16 +98,16 @@ namespace api.Controllers
         }
 
         [HttpPatch("ChangeTaskStatus")]
-        public async Task<IActionResult> ChangeTaskStatus(int id, string status)
+        public async Task<IActionResult> ChangeTaskStatus(ChangeTaskStatusDto dto)
         {
-            Task? task = await _context.Set<Task>().FindAsync(id);
+            Task? task = await _context.Set<Task>().FindAsync(dto.Id);
             if(task == null)
             {
                 return BadRequest();
             }
             else
             {
-                task.Status = StatusConverter.ConvertStringToSTATUS(status);
+                task.Status = StatusConverter.ConvertStringToSTATUS(dto.Status);
                 if (task.Status == STATUS.Completed)
                     task.IsCompleted = true;
                 await _context.SaveChangeAsync();
@@ -134,12 +141,21 @@ namespace api.Controllers
         {
             Task? task = await _context.Set<Task>().FindAsync(dto.Id);
             if (task == null) return BadRequest();
-            task.Status = StatusConverter.ConvertStringToSTATUS(dto.Status);
+            task.Status = (STATUS)dto.Status;
             task.Title = dto.Title;
             task.Description = dto.Description;
             task.DueDate = dto.DueTime;
             if (task.Status == STATUS.Completed)
                 task.IsCompleted = true;
+            await _context.SaveChangeAsync();
+            return Ok();
+        }
+
+        [HttpDelete("RemoveTask")]
+        public async Task<IActionResult> RemoveTask(int id)
+        {
+            Task task = (await _context.Set<Task>().FindAsync(id))!;
+            _context.Set<Task>().Remove(task);
             await _context.SaveChangeAsync();
             return Ok();
         }
